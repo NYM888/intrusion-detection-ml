@@ -1,11 +1,12 @@
 .venv 
 
-.pyc
+__pycache__/
+*.pyc
 
 .ipynb_checkpoints/
 
-data/*.csv
-data/*.zip
+data/**/*.csv
+data/**/*.zip
 
 models/*.pkl
 models/*.joblib
